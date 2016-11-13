@@ -1,0 +1,9 @@
+<p>
+  <input #myMessage (keyup)="0" />
+</p>
+
+<p>
+  {{myMessage.value}}
+</p>
+<!-- The binding is automatic. (keyup)=”0” simply triggers an event after a key press. 
+No component code is required, just add the component to the root template at it will work! -->
